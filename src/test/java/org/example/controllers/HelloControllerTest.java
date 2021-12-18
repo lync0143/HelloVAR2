@@ -20,6 +20,6 @@ class HelloControllerTest {
     @Test
     @DisplayName("Verify greeting message")
     void testHelloMessage() {
-        assertThat(testRestTemplate.getForObject("http://localhost:" + port, String.class)).contains("Hello");
+        assertThat(testRestTemplate.getForObject("http://localhost:" + port, String.class)).contains("Good morning");
     }
 }
