@@ -12,8 +12,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.springframework.boot:spring-boot-starter-test:2.6.1'
 
     implementation 'org.springframework.boot:spring-boot-starter:2.6.1'
     implementation 'org.springframework.boot:spring-boot-starter-web:2.6.1'
